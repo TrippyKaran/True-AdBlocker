@@ -16,6 +16,12 @@ export default function Body() {
     <>
       <Header />
       <div className="lg:mx-[7%] lg:mt-0 mt-[15%]">
+        <div className="lg:mt-[8%] mt-[16%] mb-[5%]">
+          <h2 className="text-center lg:text-3xl text-lg px-3 text-white font-bold">True Adblocker removes all unwanted ads
+and pop-ups. It is the best adblock for chrome where you
+can enjoy all your videos without unnecessary ads.
+</h2>
+        </div>
         <div className="grid lg:grid-cols-4 grid-cols-1  text-white gap-4 lg:mt-[8%] mt-[16%] mb-[5%] ">
           <div className="bg-[#3a3535] shadow-inner-2xl shadow-[#494646]  border border-[#505255] rounded-lg p-2 py-7 lg:mx-0 mx-3">
             <div className="flex flex-col gap-5 items-center ">
