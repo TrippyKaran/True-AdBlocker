@@ -28,7 +28,10 @@ export default function Privacy_Policy() {
 <ul className='list-disc pl-10 py-3 '>
     <li>
         <p>Google</p>
-        <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+       
+    </li>
+    <li>
+    <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
     </li>
 </ul>
 
