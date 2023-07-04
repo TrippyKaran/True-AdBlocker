@@ -1,0 +1,41 @@
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    gap: 1rem;
+    height: 10rem;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+    .links{
+        display: flex;
+        align-items: center;
+       
+        gap: 2rem;
+
+        .logo{
+            width: 7rem;
+            height: 7rem;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        li{
+            list-style: none;
+        }
+
+        .link{
+            font-size: 15px;
+        }
+    }
+
+    
+
+
+}
