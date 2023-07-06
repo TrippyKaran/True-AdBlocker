@@ -23,13 +23,13 @@
             // border: 1px solid white;
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 4rem;
 
             h2{
                 font-family: Poppins;
-                font-size: 58px;
+                font-size: 5.8rem;
                 font-weight: 600;
-                line-height: 59px;
+                line-height: 5.9rem;
                 letter-spacing: 0em;
                 text-align: left;
                 
@@ -37,9 +37,9 @@
 
             p{
                 font-family: Poppins;
-                font-size: 22px;
+                font-size: 2.2rem;
                 font-weight: 600;
-                line-height: 33px;
+                line-height: 3.3rem;
                 letter-spacing: 0em;
                 text-align: left;
                 // width: 70%;
@@ -52,15 +52,15 @@
             // border: 1px solid white;
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 4rem;
             align-items: flex-start;
 
 
             h2{
                 font-family: Poppins;
-                font-size: 47px;
+                font-size: 4.7rem;
                 font-weight: 600;
-                line-height: 71px;
+                line-height: 7.1rem;
                 letter-spacing: 0em;
                
 
@@ -70,16 +70,16 @@
 
                 li{
                     font-family: Poppins;
-                    font-size: 15px;
+                    font-size: 1.5rem;
                     font-weight: 600;
-                    line-height: 23px;
+                    line-height: 2.3rem;
                     letter-spacing: 0em;
                     text-align: left;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    gap: 10px;
-                    margin-bottom: 20px;
+                    gap: 1rem;
+                    margin-bottom: 2rem;
 
                 }
             }
@@ -88,3 +88,25 @@
         
     }
 }
+
+/* Font size for screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+    .why-us{
+        height: auto;
+
+        .container{
+            gap: 5rem;
+            flex-direction: column;
+        }
+        .left{
+            // border: 1px solid red;
+            flex: 1;
+        }
+        
+        .right{
+            flex: 1;
+            // border: 1px solid red;
+        }
+    }
+  }
+  

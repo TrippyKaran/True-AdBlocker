@@ -31,8 +31,6 @@ export default function Contact_us() {
 
   return (
     <>
-      <Header />
-
       <div className="  w-full flex items-center justify-center bg-[#3a3535]  bg-cover bg-center">
 
         <form className="z-10 p-10" onSubmit={sendEmail}>
@@ -102,8 +100,6 @@ export default function Contact_us() {
           </div>
         </form>
       </div>
-
-      <Footer />
     </>
   );
 }

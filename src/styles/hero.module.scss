@@ -11,9 +11,11 @@
         align-items: center;
         justify-content: center;
         height: calc(100vh - 10rem);
+        // height: 100vh;
+        // height: 100%;
         flex-direction: column;
         color: #fff;
-        gap: 20px;
+        gap: 2rem;
 
         .subtitle1{
             font-size: 1.5rem;
@@ -37,10 +39,11 @@
                 text-transform: uppercase;
             }
         }
-
-        .btn{
-            font-size: 18px;
-            background: linear-gradient();
-        }
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    /* CSS rules go here */
+  }
+  
