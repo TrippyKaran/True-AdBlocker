@@ -1,0 +1,26 @@
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    background:linear-gradient(#9852F2,#E95AA7) ;
+    border: none;
+    border-radius: 3rem;
+    color:#FFFFFF;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all .2s linear;
+
+    .chrome{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
