@@ -51,16 +51,27 @@ const Header = () => {
       {isOpen && (
         <div className={styles.mobile}>
           <ul className={styles.links}>
-            <li className={styles.link}>Home</li>
-            <li className={styles.link}>Blogs</li>
+            <li className={styles.link}>
+              <Link to="/">Home</Link>
+            </li>
+            <li className={styles.link}>
+              <Link to="/blogs">Blogs</Link>
+            </li>
             <li className={styles.link}>
               <Link to="/contact-us">Contact Us</Link>
             </li>
-            <li className={styles.link}>About Us</li>
+            <li className={styles.link}>
+              <Link to="/about-us">About us</Link>
+            </li>
           </ul>
-          <button className={styles.btn}>
-            <AiFillChrome /> Add to Chrome
-          </button>
+          <a
+            href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
+            target="_blank"
+          >
+            <button className={styles.btn}>
+              <AiFillChrome /> Add to Chrome
+            </button>
+          </a>
         </div>
       )}
     </>

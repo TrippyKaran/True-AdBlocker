@@ -1,6 +1,5 @@
 .use{
     background-color: #111;
-    height: 100vh;
     padding: 10rem 4rem;
     color: #fff;
     position: relative;
@@ -100,8 +99,26 @@
     }
 }
 
+@media only screen and (max-width: 978px) { 
+    .use{
+        height: auto;
+
+        .container{
+            .content{
+                flex-direction: column;
+            }
+        }
+    }
+ }
 @media only screen and (max-width: 768px) { 
     .use{
         height: auto;
+
+        .container{
+
+            .content{
+                flex-direction: column;
+            }
+        }
     }
  }

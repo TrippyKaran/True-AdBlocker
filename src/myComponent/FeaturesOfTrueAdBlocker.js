@@ -53,10 +53,11 @@ const FeaturesOfTrueAdBlocker = () => {
 
         <div className={styles.bottom}>
           <div className={styles.left}>
+    
             <div className={styles.item}>
-              <span className={styles["item-title"]}>Block Sponsered ads</span>
+            <span className={styles["item-title"]}>Block Sponsered ads</span>
               <span className={styles["item-text"]}>
-                Say goodbye to sponsored ads with free Adblock for chrome.
+              Say goodbye to sponsored ads with free Adblock for chrome        
               </span>
             </div>
             <div className={styles.item}>

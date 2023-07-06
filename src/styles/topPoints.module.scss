@@ -33,6 +33,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 1rem;
+            padding: 2rem;
             
             background: rgba( 255, 255, 255, 0.25 );
             box-shadow: 0 .8rem 3.2rem 0 rgba( 31, 38, 135, 0.37 );
@@ -42,13 +43,22 @@
 
             .card{
                 flex: 1;
-                padding: 6rem;
+                padding: 4rem;
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
                 flex-direction: column;
-                // border: 1px solid red;
+                
                 gap: 1.5rem;
+                transition: all .2s linear;
+
+                // background: rgba( 255, 255, 255, 0.25 );
+                // box-shadow: 0 .8rem 3.2rem 0 rgba( 31, 38, 135, 0.37 );
+                // backdrop-filter: blur( 2.4rem );
+                // -webkit-backdrop-filter: blur( 2.4rem );
+                border-radius: 1rem;
+                // border: 1px solid white;
+              
 
                 h3{
                     font-family: Poppins;
