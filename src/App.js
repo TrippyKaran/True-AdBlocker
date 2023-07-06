@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -7,6 +6,8 @@ import AboutUS from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./myComponent/PrivacyPolicy";
+import Disclaimer from "./myComponent/Disclaimer";
+import TermsAndCondition from "./myComponent/TermsAndCondition";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
       </Routes>
     </div>
   );

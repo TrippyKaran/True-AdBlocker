@@ -22,8 +22,8 @@ const data = [
   },
   {
     id: 4,
-    heading: "This adblock for chrome blocks YouTube Ads",
-    desc: "One of the most visited websites on the internet, YouTube also has some of the most annoying advertisements. You won't have to watch pre-roll advertisements or any other YouTube advertisements after installing Adblock for Chrome. Say goodbye to pre-roll, mid-roll, and even the adverts in the 'Up Next' sidebar when you install this adblock for chrome on YouTube. You may entirely focus on watching YouTube without any interruptions by using True Adblocker.",
+    heading: "This adblock for youtube chrome",
+    desc: "Ad blocker youtube is one of the most visited websites on the internet, YouTube also has some of the most annoying advertisements. You won't have to watch pre-roll advertisements or any other YouTube advertisements after installing block youtube ads for chrome. Say goodbye to pre-roll, mid-roll, and even the adverts in the 'Up Next' sidebar when you install this youtube ablocker for chrome. You may entirely focus on watching YouTube without any interruptions by using True Adblocker or adblocker chrome extension.",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const data = [
   {
     id: 7,
     heading: "Ads and Pop-Up Blocker",
-    desc: "One of the most unpleasant types of online advertising is pop-ups or pop-up advertising. According to some estimates, pop-up ads have been annoying people for 25 years, making them one of the oldest. Pop-ups are any advertisements that appear in front of the information you are attempting to read; this is how they got their name. One of the most aggressive and annoying forms of advertising are pop-up windows, which you may permanently prevent using this adblock for chrome. They have also developed into equally unpleasant variations of pop-ups, pop-unders, and pop-ups with sound or video.",
+    desc: "Adblock google chrome or chrome extensions adblock is one of the most unpleasant types of online advertising is pop-ups or pop-up advertising. According to some estimates, pop-up ads have been annoying people for 25 years and this is the best ad blocker chrome, making them one of the oldest. Pop-ups are any advertisements that appear in front of the information you are attempting to read; this is how they got their name. One of the most aggressive and annoying forms of advertising are pop-up windows, which you may permanently prevent using this adblock for chrome. They have also developed into equally unpleasant variations of pop-ups, pop-unders, and pop-ups with sound or video. Thus, this is the best google chrome adblocker or adguard adblocker.",
   },
 ];
 

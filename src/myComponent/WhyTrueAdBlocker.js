@@ -37,8 +37,8 @@ const WhyTrueAdBlocker = () => {
               Today's best adblock for chrome are generally good at what they
               do.
             </span>
-            <span>YES</span>
-            <span>YES</span>
+            <span className={styles.yes}>YES</span>
+            <span >YES</span>
           </div>
           <div className={styles.row}>
             <span colSpan="3">Fasten up page loading</span>
@@ -48,7 +48,7 @@ const WhyTrueAdBlocker = () => {
               Trueadblocker removes advert before they are downloaded to your
               device by your browser, as opposed to ad block extension chrome.
             </span>
-            <span>YES</span>
+            <span className={styles.yes}>YES</span>
             <span>YES</span>
           </div>
           <div className={styles.row}>
@@ -58,7 +58,7 @@ const WhyTrueAdBlocker = () => {
             <span>
               Filters in adguard adblocker can block obtrusive components.
             </span>
-            <span>YES</span>
+            <span className={styles.yes}>YES</span>
             <span>PARTLY</span>
           </div>
           <div className={styles.row}>
@@ -69,8 +69,8 @@ const WhyTrueAdBlocker = () => {
               After deleting ad sections, the majority of best adblock Firefox
               keep their page functionally
             </span>
-            <span>YES</span>
-            <span>NO</span>
+            <span className={styles.yes}>YES</span>
+            <span className={styles.no}>NO</span>
           </div>
           <div className={styles.row}>
             <span>Technical assistance with Spotify adblock</span>
@@ -79,8 +79,8 @@ const WhyTrueAdBlocker = () => {
             <span>
               This adblock chrome extension has best technical assistance
             </span>
-            <span>YES</span>
-            <span>NO</span>
+            <span className={styles.yes}>YES</span>
+            <span className={styles.no}>NO</span>
           </div>
         </div>
       </div>

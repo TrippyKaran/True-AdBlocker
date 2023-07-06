@@ -1,4 +1,4 @@
-.disclaimer{
+.terms-condition{
     background-color: #111;
     padding: 10rem 4rem;
     color: #fff;
@@ -43,6 +43,21 @@
                 text-align: left;
                 color: gray;
                 margin-bottom: 4rem;
+            }
+
+            ul{
+                margin-bottom: 4rem;
+
+
+                li{
+                    margin-left: 3rem;
+                    list-style-type: disc;
+                    font-size: 2.0rem;
+                    line-height: 2.7rem;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: gray;
+                }
             }
         }
     }

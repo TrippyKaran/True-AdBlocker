@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from '../myComponent/Hero'
+import Footer from '../myComponent/Footer'
 
 const Blogs = () => {
   return (
-    <div>Blogs</div>
+    <>
+    <Hero/>
+    <Footer/>
+    </>
   )
 }
 

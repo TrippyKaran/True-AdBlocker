@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../styles/hero.module.scss";
 import Button from "./Button";
 import Header from "./Header";
+import { AiFillChrome } from "react-icons/ai";
+
 
 const Hero = () => {
   return (
@@ -18,7 +20,14 @@ const Hero = () => {
           href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
           target="_blank"
         >
-          <Button text="GET TRUE ADBLOCKER NOW" />
+          <a
+            href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
+            target="_blank"
+          >
+            <button className={styles.btn}>
+              <AiFillChrome /> Add to Chrome
+            </button>
+          </a>
         </a>
       </div>
     </div>

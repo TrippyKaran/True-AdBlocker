@@ -114,6 +114,7 @@
                 .item{
                     display: flex;
                     flex-direction: column;
+                   
                     gap: 2rem;
                     &-title{
 
@@ -160,18 +161,26 @@
                 
                 .card{
                     width: 46%;
-                    gap: 1rem;
+                    // gap: 1rem;
+                    padding: 1rem;
+                    height: 28rem;
+                    flex-direction: column;
+
+                    span{
+                        text-align: center;
+                    }
                 }  
             }
-    
+
             .bottom{
-                
+
+                flex-direction: column;
+
             }
         }
-    
     }
-   }
-@media only screen and (max-width: 768px) { 
+}
+@media only screen and (max-width: 780px) { 
     .featuresOfTrueAdBlocker{
         .container{
             .top{
@@ -179,16 +188,14 @@
                 .card{
                     width: 100%;
                     gap: 1rem;
+                    // font-size: 1.5rem;
                 }  
             }
-    
-            .bottom{
-                // flex-direction: column;
-            }
+
+           
         }
-    
     }
-   }
+}
 
 
 
