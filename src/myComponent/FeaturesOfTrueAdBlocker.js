@@ -17,9 +17,9 @@ const FeaturesOfTrueAdBlocker = () => {
           <div className={styles.card}>
             <img src="./Слой 2.svg" alt="Слой 2" />
             <span>
-              Take control on your Twitch experience with free Adblock for
-              chrome or Twitch ad blocker and watch ad free series. You can
-              enjoy your favorite content with twitch adblock.{" "}
+              Take control on your <span>Twitch </span>experience with free
+              Adblock for chrome or Twitch ad blocker and watch ad free series.
+              You can enjoy your favorite content with twitch adblock.
             </span>
           </div>
           <div className={styles.card}>
@@ -27,8 +27,10 @@ const FeaturesOfTrueAdBlocker = () => {
             <span>
               Experience uninterrupted video ads on Youtube with free Adblock
               for chrome or youtube adblock chrome and watch your favroite show
-              freely with youtube ad blocker. In adblocker youtube, you can
-              watch your favroite content without any annoying ads.
+              freely with youtube ad blocker. In adblocker youtube,
+              <span>
+                you can watch your favroite content without any annoying ads.
+              </span>
             </span>
           </div>
 
@@ -37,8 +39,9 @@ const FeaturesOfTrueAdBlocker = () => {
             <span>
               Enhance your spotify experience by blocking annoying ads at
               spotify adblocker and immerse yourself with uninterrupted music
-              with free Adblock for chrome. With Spotify adblocker, you can
-              listen your favroite song.{" "}
+              with free Adblock for chrome. With{" "}
+              <span> Spotify adblocker </span>, you can listen your favroite
+              song.
             </span>
           </div>
           <div className={styles.card}>
@@ -53,18 +56,18 @@ const FeaturesOfTrueAdBlocker = () => {
 
         <div className={styles.bottom}>
           <div className={styles.left}>
-    
             <div className={styles.item}>
-            <span className={styles["item-title"]}>Block Sponsered ads</span>
+              <span className={styles["item-title"]}>Block Sponsered ads</span>
               <span className={styles["item-text"]}>
-              Say goodbye to sponsored ads with free Adblock for chrome        
+                Say goodbye to <span>sponsored ads </span>with free Adblock for
+                chrome
               </span>
             </div>
             <div className={styles.item}>
               <span className={styles["item-title"]}>Popup Ads blocker</span>
               <span className={styles["item-text"]}>
                 Block unwanted ads and give control over your online space with
-                free Adblock for chrome or pop up adblocker.
+                <span>free Adblock for chrome or pop up adblocker.</span>
               </span>
             </div>
           </div>
@@ -75,8 +78,8 @@ const FeaturesOfTrueAdBlocker = () => {
             <div className={styles.item}>
               <span className={styles["item-title"]}>Block Google Ads</span>
               <span className={styles["item-text"]}>
-                Take control on your online privacy and block google ads with
-                total adblock.
+                Take control on your online <span>privacy</span> and block
+                google ads with total adblock.
               </span>
             </div>
             <div className={styles.item}>
@@ -85,7 +88,7 @@ const FeaturesOfTrueAdBlocker = () => {
               </span>
               <span className={styles["item-text"]}>
                 Helps you avoid all phishing sites and domains that are known to
-                spread malware in total adblock.
+                spread malware in <span>total adblock.</span>
               </span>
             </div>
           </div>

@@ -19,6 +19,7 @@
         .logo{
             width: 7rem;
             height: 7rem;
+            z-index: 99;
 
             img{
                 width: 100%;
@@ -38,7 +39,8 @@
     .btn{
         padding: 1rem 2rem;
         font-size: 1.8rem;
-        background:linear-gradient(#9852F2,#E95AA7) ;
+        background: rgb(152,82,242);
+        background: linear-gradient(90deg, rgba(152,82,242,1) 0%, rgba(233,90,167,1) 100%);
         border: none;
         border-radius: 3rem;
         color:#FFFFFF;
@@ -78,6 +80,22 @@
 
     }
 
+    .animate{
+
+        .firstLine{
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .middleLine{
+            display: none;
+        }
+
+        .lastLine{
+            transform:  rotate(-45deg);
+            
+        }
+    }
+
 }
 
 
@@ -97,8 +115,7 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 1rem;
-    transition: all .5s linear;
-
+    transition: all .5s ease-in-out;
     .links{
         display: flex;
         align-items: center;

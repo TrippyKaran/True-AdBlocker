@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "../styles/hero.module.scss";
-import Button from "./Button";
 import Header from "./Header";
 import { AiFillChrome } from "react-icons/ai";
-
 
 const Hero = () => {
   return (
@@ -16,18 +14,14 @@ const Hero = () => {
           True Adblocker removes all unwanted ads and block pop-ups ads. It is
           the <span>BEST</span> and <span>FREE</span> Adblock
         </p>
+
         <a
           href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
           target="_blank"
         >
-          <a
-            href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
-            target="_blank"
-          >
-            <button className={styles.btn}>
-              <AiFillChrome /> Add to Chrome
-            </button>
-          </a>
+          <button className={styles.btn}>
+            <AiFillChrome /> Add to Chrome
+          </button>
         </a>
       </div>
     </div>
