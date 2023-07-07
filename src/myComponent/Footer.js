@@ -14,7 +14,9 @@ const Footer = () => {
           True Adblocker removes all unwanted ads and block pop-ups ads. It is
           the <span>BEST</span> and <span>FREE</span> Adblock
         </p>
+
         <Button text="GET TRUE ADBLOCKER NOW" />
+
         <hr className={styles.line} style={{ color: "gray" }} />
 
         <div className={styles.content}>
@@ -45,9 +47,8 @@ const Footer = () => {
             </li>
           </ul>
           <ul>
-        
             <li>
-              <Link to="/about-us">Privacy Policy</Link>
+              <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
               <Link to="/disclaimer">Disclaimer</Link>

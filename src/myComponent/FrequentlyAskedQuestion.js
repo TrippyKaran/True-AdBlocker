@@ -33,16 +33,7 @@ const questions = [
 const FrequentlyAskedQuestion = () => {
   const [showAnswer, setShowAnswer] = useState(null);
 
-  // const handleShow = (id) => {
-  //   setShowAnswer(id);
-  // };
-
   const toggleAnswer = (questionId) => {
-    // setShowAnswer((prevState) => ({
-    //   ...prevState,
-    //   [questionId]: !prevState[questionId],
-    // }));
-
     if (showAnswer === questionId) {
       setShowAnswer(null);
     } else {
@@ -50,9 +41,6 @@ const FrequentlyAskedQuestion = () => {
     }
   };
 
-  useEffect(() => {
-    console.log(showAnswer);
-  }, [showAnswer]);
   return (
     <div className={styles.frequently}>
       <div className={styles.container}>
@@ -81,7 +69,9 @@ const FrequentlyAskedQuestion = () => {
             </li>
           ))}
         </ol>
-        <button>GET TRUE ADBLOCKER NOW</button>
+        <a href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm">
+          <button>GET TRUE ADBLOCKER NOW</button>
+        </a>
       </div>
     </div>
   );

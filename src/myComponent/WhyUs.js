@@ -14,23 +14,23 @@ const WhyUs = () => {
           <h2>CHOOSE US</h2>
           <ul>
             <li>
-              <img src='./uil_youtube.svg'/> 
+              <img src='./uil_youtube.svg' alt='uil_youtube'/> 
               Block youtube ads chrome
             </li>
             <li>
-              <img src='./mdi_twitch.svg'/> 
+              <img src='./mdi_twitch.svg' alt='mdi_twitch'/> 
               Blocks unwanted twitch adblock extension
             </li>
             <li>
-              <img src='./fontisto_spotify.svg'/> 
+              <img src='./fontisto_spotify.svg' alt='fontisto_spotify'/> 
               Listen your favorite music with spotify adblock
             </li>
             <li>
-              <img src='./simple-icons_hulu.svg'/> 
+              <img src='./simple-icons_hulu.svg' alt='icons_hulu'/> 
               Watch endless series with hulu no ads
             </li>
             <li>
-              <img src='./simple-icons_adblock.svg'/> 
+              <img src='./simple-icons_adblock.svg' alt='icons_adblock'/> 
               Block pop up ads with total adblock.
             </li>
             

@@ -154,8 +154,7 @@ const Reviews = () => {
                 Anyone who is sick of invasive advertisements needs
                 trueAdBlocker or total adblock. It not only gets rid of
                 advertisements on websites but also provides cutting-edge tools
-                for blocking them on well-known streaming services. My online
-                experience has greatly improved in google chrome adblocker.
+                for blocking them on well-known streaming services.
               </p>
             </div>
           </div>
@@ -184,82 +183,6 @@ const Reviews = () => {
                 adblock for chrome stands out for providing the best
                 performance. My web browsing is quicker and more fun as a result
                 of the seamless ad blocking across numerous websites.
-              </p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
-            </div>
-            <div className={styles.rating}>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-            </div>
-            <div className={styles.text}>
-              <p>Wow!! I can watch endless series with twitch adblock.</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
-            </div>
-            <div className={styles.rating}>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-            </div>
-            <div className={styles.text}>
-              <p>Now i can listen my favorite music with spotify adblocker</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
-            </div>
-            <div className={styles.rating}>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-              <span>
-                <img src="./stars.svg" alt="star" />
-              </span>
-            </div>
-            <div className={styles.text}>
-              <p>
-                I have used free adblock for chrome and now i can watch my
-                favorite content with youtube ad chrome, pop up ads and hulu no
-                ads.
               </p>
             </div>
           </div>

@@ -21,6 +21,8 @@ html {
   font-size: 62.5%; /* 10px */
 }
 
+
+
 /* Font size for screens that are 768px wide or less */
 @media screen and (max-width: 768px) {
   html {

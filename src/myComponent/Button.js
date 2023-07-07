@@ -1,13 +1,15 @@
-import React from 'react'
-import styles from '../styles/button.module.scss'
+import React from "react";
+import styles from "../styles/button.module.scss";
 
-const Button = ({text,icon}) => {
+const Button = ({ text, icon }) => {
   return (
-    <button className={styles.btn}>
+    <a href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm">
+      <button className={styles.btn}>
         {icon && icon}
         {text}
       </button>
-  )
-}
+    </a>
+  );
+};
 
-export default Button
+export default Button;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/header.module.scss";
 import { AiFillChrome } from "react-icons/ai";
 import Button from "./Button";
@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    console.log(isOpen);
+  }, [isOpen]);
   return (
     <>
       <nav className={styles.navbar}>
@@ -39,12 +42,12 @@ const Header = () => {
         </a>
 
         <div
-          className={styles.mobileMenuBtn}
-          onClick={() => setIsOpen((prev) => !isOpen)}
+          className={`${styles.mobileMenuBtn}  ${isOpen && styles.animate}`}
+          onClick={() => setIsOpen((prev) => !prev)}
         >
-          <span className={styles.line}></span>
-          <span className={styles.line}></span>
-          <span className={styles.line}></span>
+          <span className={`${styles.line} ${styles.firstLine}`}></span>
+          <span className={`${styles.line} ${styles.middleLine}`}></span>
+          <span className={`${styles.line} ${styles.lastLine}`}></span>
         </div>
       </nav>
 
