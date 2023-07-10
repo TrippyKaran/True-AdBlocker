@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./myComponent/PrivacyPolicy";
 import Disclaimer from "./myComponent/Disclaimer";
 import TermsAndCondition from "./myComponent/TermsAndCondition";
+import Footer from "./myComponent/Footer";
 
 function Rout() {
   return (
@@ -19,6 +20,7 @@ function Rout() {
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
