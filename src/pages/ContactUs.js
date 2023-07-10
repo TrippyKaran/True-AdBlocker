@@ -1,8 +1,9 @@
 import React from "react";
-import Hero from "../myComponent/Hero";
-import Footer from "../myComponent/Footer";
 import styles from "../styles/contact.module.scss";
 import emailjs from "@emailjs/browser";
+import HeroStyles from "../styles/hero.module.scss";
+import { AiFillChrome } from "react-icons/ai";
+import Header from "../myComponent/Header";
 
 const ContactUs = () => {
   const sendEmail = (e) => {
@@ -29,7 +30,26 @@ const ContactUs = () => {
 
   return (
     <>
-      <Hero />
+      <div className={HeroStyles.hero}>
+        <Header />
+        <div className={HeroStyles.container}>
+          <h2 className={HeroStyles.subtitle1}>YOUR BEST CHOICE</h2>
+          <h1 className={HeroStyles.heading}>True AdBlocker</h1>
+          <p className={HeroStyles.subtitle2}>
+            True Adblocker removes all unwanted ads and block pop-ups ads. It is
+            the <span>BEST</span> and <span>FREE</span> Adblock
+          </p>
+
+          <a
+            href="https://chrome.google.com/webstore/detail/trueadblocker/edhpnfalgkdhdghkdjdnhmnfnomnlobm"
+            target="_blank"
+          >
+            <button className={HeroStyles.btn}>
+              <AiFillChrome /> Add to Chrome
+            </button>
+          </a>
+        </div>
+      </div>
       <div className={styles.contact}>
         <div className={styles.container}>
           <h2>Contact Us</h2>
@@ -70,7 +90,6 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

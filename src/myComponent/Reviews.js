@@ -49,7 +49,7 @@ const Reviews = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
+              <img src="./avatar-1.png" alt="profile-image" />
               <h3> Peter Smith</h3>
             </div>
             <div className={styles.rating}>
@@ -76,8 +76,8 @@ const Reviews = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
+              <img src="./avatar-2.png" alt="profile-image" />
+              <h3> Michael Garcia</h3>
             </div>
             <div className={styles.rating}>
               <span>
@@ -104,8 +104,8 @@ const Reviews = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
+              <img src="./avatar-3.png" alt="profile-image" />
+              <h3> Benjamin Brown</h3>
             </div>
             <div className={styles.rating}>
               <span>
@@ -132,8 +132,8 @@ const Reviews = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
+              <img src="./avatar-4.png" alt="profile-image" />
+              <h3> James Johnson</h3>
             </div>
             <div className={styles.rating}>
               <span>
@@ -160,8 +160,8 @@ const Reviews = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.profile}>
-              <img src="./avatar.svg" alt="profile-image" />
-              <h3> Peter Smith</h3>
+              <img src="./avatar-5.png" alt="profile-image" />
+              <h3>William Smith</h3>
             </div>
             <div className={styles.rating}>
               <span>

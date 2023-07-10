@@ -94,8 +94,9 @@
                     align-items: center;
                     justify-content: flex-start;
                     gap: 1rem;
-
+                    
                     img{
+                        border-radius: 50%;
                         width: 4.2rem;
                         height: 4.2rem;
                         object-fit: contain;
