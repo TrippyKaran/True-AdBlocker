@@ -10,13 +10,12 @@ const AboutTrueAdBlocker = () => {
           <div className={styles.left}>
             <h2>ABOUT TRUE ADBLOCKER</h2>
             <p>
-              True Adblocker is the adblock extension chrome browser addon that
-              shields users from third-party trackers and deletes adverts from
-              chrome. True Adblocker is actually the most popular adblock for
-              chrome and it is used by millions of people to stop unnecessary
-              ads. True adblock chrome extension also supports privacy
-              protection and this adblock chrome is simple to use and completely
-              customizable.
+              True Adblocker is the best browser addon that shields users from
+              third-party trackers and deletes adverts from chrome. True
+              Adblocker is actually the most popular adblock for chrome and it
+              is used by millions of people to stop unnecessary ads. True
+              adblocker also supports privacy protection and this adblock chrome
+              is simple to use and completely customizable
             </p>
           </div>
           <div className={styles.right}>
@@ -33,15 +32,13 @@ const AboutTrueAdBlocker = () => {
               blocking all unwanted ads with free adblock for chrome.
               TrueAdblocker eliminates all the distractions that you face while
               watching your favorite content with spotify adblocker, youtube
-              adblocker, pop up ads, hulu no ads and twitch adblocker.
+              adblocker, pop up ads, hulu no ads and twitch adblocker. You can
+              regain your control over your online activities, enhancing both
+              speed and privacy. So, say goodbye to all annoying ads and enjoy a
+              faster, smoother and enjoyable internet experience with one and
+              only true adblocker.
             </p>
-            <p>
-              With free adblock for chrome and adblock firefox you can regain
-              your control over your online activities, enhancing both speed and
-              privacy. So, say goodbye to all annoying ads and enjoy a faster,
-              smoother and enjoyable internet experience with one and only free
-              adblock for chrome.
-            </p>
+           
           </div>
         </div>
       </div>

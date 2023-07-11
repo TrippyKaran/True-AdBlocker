@@ -38,15 +38,18 @@ const WhyTrueAdBlocker = () => {
               do.
             </span>
             <span className={styles.yes}>YES</span>
-            <span >YES</span>
+            <span>YES</span>
           </div>
           <div className={styles.row}>
-            <span colSpan="3">Fasten up page loading</span>
+            <span colSpan="3">
+              Fasten up page loading with ad block extension chrome.
+            </span>
           </div>
           <div className={styles.row}>
             <span>
               Trueadblocker removes advert before they are downloaded to your
-              device by your browser, as opposed to ad block extension chrome.
+              device by your browser, as opposed to twitch adblock chrome
+              extension.
             </span>
             <span className={styles.yes}>YES</span>
             <span>YES</span>
@@ -73,12 +76,10 @@ const WhyTrueAdBlocker = () => {
             <span className={styles.no}>NO</span>
           </div>
           <div className={styles.row}>
-            <span>Technical assistance with Spotify adblock</span>
+            <span>Technical assistance</span>
           </div>
           <div className={styles.row}>
-            <span>
-              This adblock chrome extension has best technical assistance
-            </span>
+            <span>This extension has best technical assistance</span>
             <span className={styles.yes}>YES</span>
             <span className={styles.no}>NO</span>
           </div>

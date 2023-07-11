@@ -16,9 +16,8 @@ const TopPoints = () => {
             <img src="./subway_time-1.svg" alt="subway_time-1" />
             <h3>Boost your speed</h3>
             <p>
-              with <span> adblock chrome extension </span> Experience a quicker
-              Internet while improving page load times with{" "}
-              <span> twitch adblock extension</span>
+              Experience a quicker Internet while improving page load times with
+              <span>twitch adblock extension</span>
             </p>
           </div>
           <div className={styles.card}>
@@ -27,25 +26,22 @@ const TopPoints = () => {
               alt="healthicons_fingerprint-outline"
             />
             <h3>Maintain Your Privacy</h3>
-            <p>
-              With <span> adblock extension </span>Avoid letting online ads
-              follow you.
-            </p>
+            <p>Avoid letting online ads follow you.</p>
           </div>
           <div className={styles.card}>
             <img src="./jam_task-list.svg" alt="jam_task-list" />
             <h3>Eliminate Distractions </h3>
             <p>
-              With <span> total adblock </span>Remove pop-ups, banners, and
-              video advertising with <span> chrome extension adblock.</span>
+              Remove pop-ups, banners, and video advertising with{" "}
+              <span>chrome extension adblock.</span>
             </p>
           </div>
           <div className={styles.card}>
             <img src="./eva_cube-fill.svg" alt="eva_cube-fill" />
             <h3>Assistance Websites </h3>
             <p>
-              with <span> total adblock </span>By permitting Acceptable Ads, you may promote a
-              robust online environment for websites.
+              By permitting Acceptable Ads, you may promote a robust online
+              environment for websites.
             </p>
           </div>
           <div className={styles.card}>
@@ -55,8 +51,7 @@ const TopPoints = () => {
             />
             <h3>Parenting control </h3>
             <p>
-              With <span> free adblock for chrome. </span> By using parenting
-              control, you can restrict such adults websites.
+              By using parenting control, you can restrict such adults websites.
             </p>
           </div>
         </div>
@@ -70,35 +65,32 @@ const TopPoints = () => {
                     src="./icon-park-outline_ad.svg"
                     alt="icon-park-outline_ad"
                   />
-                  Blocks all advertisements with total adblock.
+                  blocks all advertisements
                 </li>
                 <li>
                   <img src="./uiw_chrome.svg" alt="uiw_chrome" />
-                  Eliminates unwanted web components with free adblock for
-                  chrome.
+                  Eliminates unwanted web components
                 </li>
                 <li>
                   <img
                     src="./fluent_top-speed-20-filled.svg"
                     alt="fluent_top-speed-20-filled.svg"
                   />
-                  Reduces traffic and improves page load with free adblock for
-                  chrome.
+                  reduces traffic and improves page load
                 </li>
                 <li>
                   <img
                     src="./akar-icons_network.svg"
                     alt="akar-icons_network"
                   />
-                  Works with apps and browsers with total adblock.
+                  Works with apps and browsers
                 </li>
                 <li>
                   <img
                     src="./material-symbols_wall-art-rounded.svg"
                     alt="material-symbols_wall-art-rounded"
                   />
-                  Keeps the site's design and functionality intact with free
-                  adblock for chrome.
+                  keeps the site's design and functionality intact
                 </li>
               </ul>
             </div>
@@ -115,21 +107,19 @@ const TopPoints = () => {
                 </li>
                 <li>
                   <img src="./twemoji_top-arrow.svg" alt="twemoji_top-arrow" />
-                  This best adblock chrome extension offers defence against
-                  dangerous websites.
+                  This extension offers defence against dangerous websites.
                 </li>
                 <li>
                   <img
                     src="./healthicons_fingerprint-outline.svg"
                     alt="healthicons_fingerprint-outline"
                   />
-                  This best adblock chrome extension offers defence against
-                  dangerous websites.
+                  Your data is protected from internet trackers by this
+                  extension.
                 </li>
                 <li>
                   <img src="./mdi_children-toy.svg" alt="mdi_children-toy" />
-                  Children are protected from inappropriate content with this
-                  adblock chrome extension.
+                  Children are protected from inappropriate content
                 </li>
               </ul>
             </div>
