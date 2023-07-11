@@ -33,8 +33,8 @@ const data = [
   },
   {
     id: 6,
-    heading: "Block Ads on Twitch",
-    desc: "True Adblocker is the best option to block ads on Twitch. Tv. LIke no other adblock for chrome on the market offers Twitch ad blocking. Simply install Adblocker for chrome, launch the True Adblocker menu, then choose on the general options tab to 'Enable hiding of streaming ads on Twitch.' Many Twitch adverts that play mid-stream will be hidden and muted if this functionality is enabled.",
+    heading: "Twitch adblock for chrome",
+    desc: "True Adblocker is the best option to block ads on Twitch. Tv. LIke no other adblock for chrome on the market offers Twitch ad blocking. Simply install  Adblocker for chrome or twitch adblock extension, launch the True Adblocker menu, then choose on the general options tab to 'Enable hiding of streaming ads on Twitch.' Many Twitch adverts that play mid-stream will be hidden and muted if this functionality is enabled. Thus, this is the best adblock for twitch. Twitch adblock firefox is a browser extension that add to your firefox browser and blocks all unnecessary ads, popups, banner and video ads.",
   },
   {
     id: 7,

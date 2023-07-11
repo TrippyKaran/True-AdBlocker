@@ -13,34 +13,21 @@ const Use = () => {
 
         <div className={styles.content}>
           <div className={styles.left}>
-            <p>
-              1. Install the Chrome extension for{" "}
-              <span>free adblock for chrome.</span>{" "}
-            </p>
-            <p>
-              2. Securely fasten the extension to the toolbar with{" "}
-              <span> free adblock for chrome.</span>
-            </p>
-            <p>
-              3. Launch the extension and turn on ad blocking with
-              <span> total adblock.</span>
-            </p>
+            <p>1. Install the Chrome extension</p>
+            <p>2.Securely fasten the extension to the toolbar</p>
+            <p>3. Launch the extension and turn on ad blocking</p>
             <p>
               4. On <span> ad blocker youtube </span>you can play any video
               without any unwanted ads with <span>adguard ablock.</span>
             </p>
-            <p>
-              5. Bingo! You can now view movies without commercials with{" "}
-              <span>free adblock for chrome.</span>
-            </p>
+            <p>5. Bingo! You can now view movies without commercials</p>
           </div>
           <div className={styles.right}>
             <h3>BROWSERS ADD-ON</h3>
             <p>
-              A free online browser add-on called <span>TRUEADBLOCKER</span> or
-              free adblock for chrome, completely blocks all unwanted
-              advertisements. It does not come with a pre-defined whitelist as
-              its competitors do.
+              A free online browser add-on called Trueadblocker, completely
+              blocks all unwanted advertisements. It does not come with a
+              pre-defined whitelist as its competitors do.
             </p>
             <Button text="GET TRUE ADBLOCKER NOW" />
           </div>
